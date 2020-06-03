@@ -4,7 +4,7 @@ a {
   color: #000000;
 }
 .container {
-  background: #e5e5e5;
+  background: black;
   max-width: 1092px;
   margin-right: auto;
   margin-left: auto;
@@ -60,6 +60,128 @@ a {
 .link_blue {
   color: #0000ff;
 }
+.donner-certificate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donner__header {
+  margin-top: 55px;
+  font-family: "Museo Cyrl";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  color: #e2e8ec;
+}
+.donner__text {
+  margin-top: 30px;
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #e2e8ec;
+}
+.donner__img {
+  margin-top: 80px;
+  width: 50%;
+}
+.donner__link-group {
+  margin-top: 80px;
+}
+.donner__btn {
+  padding: 16px 25px;
+  background: #f4a133;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.donner__or {
+  margin: 0 30px;
+}
+.donner__another-link {
+  font-weight: 500;
+  color: #0000ff;
+}
+@media screen and (max-width: 950px) {
+  .donner__header {
+    font-size: 30px;
+  }
+  .donner__text {
+    font-size: 14px;
+  }
+  .donner__img {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 755px) {
+  .donner__header {
+    font-size: 25px;
+  }
+  .donner__text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .donner__header {
+    font-size: 20px;
+  }
+  .donner__img {
+    margin-top: 23px;
+  }
+  .donner__text {
+    margin-top: 0px;
+  }
+  .donner__link-group {
+    margin-top: 45px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .donner__header {
+    font-size: 16px;
+  }
+  .donner__text {
+    font-size: 12px;
+  }
+  .donner__btn {
+    padding: 10px 16px;
+  }
+  .donner__or {
+    margin: 0 15px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .donner__header {
+    font-size: 14px;
+  }
+  .donner__link-group {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .donner__header {
+    font-size: 12px;
+  }
+  .donner__text {
+    font-size: 10px;
+  }
+  .donner__img {
+    margin-top: 20px;
+  }
+  .donner__btn {
+    padding: 6px 9px;
+  }
+  .donner__or {
+    margin: 5px 0;
+  }
+  .donner__link-group {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 340px) {
   .header-card {
     font-size: 23px;
@@ -69,6 +191,12 @@ a {
   }
 }
 @media screen and (max-width: 320px) {
+  .donner__header {
+    font-size: 10px;
+  }
+  .donner__text {
+    font-size: 8px;
+  }
   .text-card,
   .link_blue {
     font-size: 14px;
