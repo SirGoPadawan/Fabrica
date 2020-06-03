@@ -27,7 +27,8 @@ a {
   font-size: 28px;
   line-height: 34px;
 }
-.text-card {
+.text-card,
+.link_blue {
   font-family: "Museo Sans Cyrl";
   font-style: normal;
   font-weight: normal;
@@ -47,12 +48,33 @@ a {
   font-size: 18px;
   line-height: 22px;
 }
-
+.link_orange {
+  margin-top: 20px;
+  font-family: "Museo Cyrl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f2994a;
+}
+.link_blue {
+  color: #0000ff;
+}
 @media screen and (max-width: 340px) {
   .header-card {
     font-size: 23px;
   }
   .text-card {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-card,
+  .link_blue {
+    font-size: 14px;
+  }
+  .link_orange {
+    margin-top: 10px;
+    font-size: 19px;
   }
 }
