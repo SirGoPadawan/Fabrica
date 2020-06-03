@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Museo Cyrl";
+  src: url("../fonts/Museo-Cyrl.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/Museo-Sans-Cyrl.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
