@@ -326,6 +326,28 @@ a {
   color: #e2e8ec;
   margin-left: 60px;
 }
+.surprize-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-surprize {
+  font-family: "Museo Cyrl";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: #e2e8ec;
+  margin: 0;
+}
+.surprize-box {
+  margin-top: 30px;
+}
+.surprize-btn {
+  margin-top: 30px;
+  padding: 15px 30px;
+}
 @media screen and (max-width: 950px) {
   .card-items {
     margin-right: 10px;
@@ -399,6 +421,9 @@ a {
     font-size: 12px;
     margin-left: 30px;
   }
+  .text-surprize {
+    font-size: 28px;
+  }
   .by-card-header,
   .text-info {
     text-align: center;
@@ -450,6 +475,7 @@ a {
     align-items: center;
   }
 }
+
 @media screen and (max-width: 340px) {
   .header-card {
     font-size: 23px;
@@ -459,6 +485,9 @@ a {
   }
 }
 @media screen and (max-width: 320px) {
+  .text-surprize {
+    font-size: 20px;
+  }
   .donner__header {
     font-size: 10px;
   }
