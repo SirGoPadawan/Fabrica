@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="container">
+    <header class="by-card-header donner__header">
+      <h2>Покупка сертификата</h2>
+    </header>
+    <p class="text-info">
+      После оплаты отправим на вашу электронную почту ссылку на сертификат
+    </p>
+    <article class="buy-card-box">
+      <div class="card-in-buy-box box-card">
+        <img src="./img/green-card.svg" class="img-box" />
+        <p class="price-text">350 ₽</p>
+        <p class="bottom-text">Подарочный сертификат</p>
+      </div>
+      <div class="purchase-field">
+        <p class="text-buy-card">Ваше имя</p>
+        <input
+          onfocus="this.value=''"
+          onblur="this.value='Имя'"
+          class="input-text-buy"
+          type="text"
+          value="Имя"
+        />
+        <p class="text-buy-card">Ваш email (на него отправим заказ)</p>
+        <input
+          onfocus="this.value=''"
+          onblur="this.value='Email'"
+          class="input-text-buy"
+          type="email"
+          value="Email"
+        />
+        <label for="agreement" class="label-agreement">
+          <input id="agreement" type="checkbox" class="checkbox-agreement" />
+          <span class="square"></span>
+          <p class="text-agreement">
+            Я соглашаюсь с
+            <a href="#" class="link_blue"
+              >Правилами покупки и использования подарочных сертификатов</a
+            >
+          </p>
+        </label>
+        <a href="#" class="btn-card">Оплатить 350 ₽ картой </a>
+      </div>
+    </article>
+  </body>
+</html>
