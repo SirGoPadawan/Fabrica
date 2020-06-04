@@ -4,7 +4,7 @@ a {
   color: #000000;
 }
 .container {
-  background: black;
+  background: #161a23;
   max-width: 1092px;
   margin-right: auto;
   margin-left: auto;
@@ -104,7 +104,126 @@ a {
   font-weight: 500;
   color: #0000ff;
 }
+.list-certificates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list__header {
+  margin: 9px 0 23px 0;
+}
+.btn_blue {
+  padding: 10px 40px;
+  background: #262f44;
+  color: #2389d8;
+  position: relative;
+}
+.hand-right {
+  content: "";
+  background-image: url(../img/hand-right.png);
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-size: cover;
+  left: 10px;
+  top: 9px;
+}
+.items__text {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #e2e8ec;
+}
+.group-certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 60px;
+}
+.card-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.box-card {
+  position: relative;
+  width: 218px;
+  height: 280px;
+  box-shadow: 0px 6px 44px rgba(1, 164, 255, 0.25);
+}
+.img-box {
+  position: absolute;
+  z-index: 0;
+}
+.price-text {
+  font-family: "Museo Cyrl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 45px;
+  color: #ffffff;
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  left: 16px;
+}
+.bottom-text {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  left: 16px;
+}
+.text-your-option {
+  font-size: 21px;
+}
+.input_price {
+  position: absolute;
+  z-index: 1;
+  top: 143px;
+  left: 16px;
+  background: #e2e8ec;
+  background-image: url(../img/₽.svg);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 6px rgba(0, 0, 0, 0.15);
+  border: 0px;
+  outline: none;
+  padding: 14px 0 9px 8px;
+  overflow: hidden;
+}
+.box-card > input[type="text"] {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 160px;
+}
+.input_price:after {
+  content: url();
+  position: absolute;
+  z-index: 2;
+}
+.items__text {
+  text-align: center;
+}
 @media screen and (max-width: 950px) {
+  .card-items {
+    margin-right: 10px;
+  }
+  .card-items:last-child {
+    margin-right: 0px;
+  }
   .donner__header {
     font-size: 30px;
   }
@@ -122,6 +241,9 @@ a {
   .donner__text {
     font-size: 12px;
   }
+  .btn_blue {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 630px) {
   .donner__header {
@@ -135,6 +257,13 @@ a {
   }
   .donner__link-group {
     margin-top: 45px;
+  }
+  .list__header {
+    font-size: 25px !important;
+    margin: 0;
+  }
+  .group-certificates {
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 510px) {
