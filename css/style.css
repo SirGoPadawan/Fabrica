@@ -348,6 +348,114 @@ a {
   margin-top: 30px;
   padding: 15px 30px;
 }
+.about {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.about-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 560px;
+}
+.about__top,
+.about__bottom {
+  padding: 20px;
+}
+.about__bottom {
+  padding-bottom: 45px;
+}
+.about__top {
+  display: flex;
+  justify-content: space-between;
+  background: #262f44;
+  box-shadow: 0px 4px 30px rgba(22, 26, 34, 0.4);
+  border-radius: 30px 30px 0px 0px;
+  flex-wrap: wrap;
+}
+.about__bottom {
+  background: #ffffff;
+  border-radius: 0px 0px 30px 30px;
+}
+.links-to-app {
+  display: flex;
+  justify-content: space-around;
+  width: 310px;
+  margin-top: 20px;
+}
+.link-appstore,
+.link-playmarket {
+  width: 47%;
+}
+.ico-app {
+  object-fit: cover;
+  width: 100%;
+}
+.about__header {
+  margin-top: 0;
+  font-family: "Museo Cyrl";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  color: #f07f1c;
+}
+.about__card {
+  width: auto;
+}
+.about__text,
+.buy-online,
+.buy-cashbox {
+  width: 50%;
+}
+.about__bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.buy-online,
+.buy-cashbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.buy-cashbox {
+  border-left: 4px solid #e2e8ec;
+  padding-left: 12px;
+}
+.bottom-header {
+  margin-top: 0;
+  font-family: "Museo Cyrl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161a22;
+}
+.about__inpute-buy-info {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #161a22;
+  border: none;
+}
+.about__another-text {
+  font-family: "Museo Cyrl";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #849fb4;
+  margin-bottom: 0;
+}
+.how-use {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+}
 @media screen and (max-width: 950px) {
   .card-items {
     margin-right: 10px;
@@ -410,6 +518,16 @@ a {
   .group-certificates {
     margin-top: 20px;
   }
+  .about__top {
+    justify-content: center;
+  }
+  .about__card {
+    width: 219px;
+  }
+  .about__text {
+    text-align: center;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 510px) {
   .successufally {
@@ -448,6 +566,13 @@ a {
   .donner__link-group {
     margin-top: 25px;
   }
+  .about__header {
+    margin: 0;
+    font-size: 25px;
+  }
+  .about__text {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 370px) {
   .succes-header {
@@ -482,6 +607,36 @@ a {
   }
   .text-card {
     font-size: 16px;
+  }
+  .about__another-text,
+  .bottom-header {
+    margin: 0;
+  }
+  .about__header {
+    font-size: 22px;
+  }
+  .about__another-text {
+    font-size: 11px;
+  }
+  .about__inpute-buy-info {
+    font-size: 15px;
+  }
+  .how-use {
+    font-size: 12px;
+  }
+  .buy-cashbox {
+    padding-left: 12px;
+    margin-left: 8px;
+  }
+  .buy-cashbox__box-img {
+    width: 50%;
+  }
+  .buy-cashbox__img-item {
+    width: 100%;
+  }
+  .links-to-app {
+    width: 280px;
+    margin-top: 12px;
   }
 }
 @media screen and (max-width: 320px) {
